@@ -1,0 +1,12 @@
+
+public class StringChecker{
+    class containAA() implements StringChecker{
+        public void checkString(string s){
+
+            if(s.contains("aa")){
+                return false
+            }
+            return true
+        }
+    }
+}

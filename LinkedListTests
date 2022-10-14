@@ -1,0 +1,17 @@
+import static org.junit.Assert.*;
+
+import java.beans.Transient;
+
+import org.junit.*;
+
+import java.util.NoSuchElementException;
+
+class Node {
+    int value;
+    Node next;
+    public Node(int value, Node next) {
+        this.value = value;
+        this.next = next;
+    }
+}
+
